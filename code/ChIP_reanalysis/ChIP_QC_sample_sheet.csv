@@ -1,7 +1,0 @@
-SampleID	Factor	Replicate	bamReads	Peaks	PeakCaller
-Fezf2_3x_FLAG_1	Fezf2	1	bowtie_output/Fezf2_flag_rep_1_filtered_marked_dups.bam	MACS2_output/Fezf2_input/Fezf2-input_peaks.narrowPeak	narrow
-Fezf2_3x_FLAG_2	Fezf2	2	bowtie_output/Fezf2_flag_rep_2_filtered_marked_dups.bam	MACS2_output/Fezf2_input/Fezf2-input_peaks.narrowPeak	narrow
-IgG_1	IgG	1	bowtie_output/IgG_rep_1_filtered_marked_dups.bam		
-IgG_2	IgG	2	bowtie_output/IgG_rep_2_filtered_marked_dups.bam		
-Input_1	NA	1	bowtie_output/input_rep_1_filtered_marked_dups.bam		
-Input_2	NA	2	bowtie_output/input_rep_2_filtered_marked_dups.bam		
