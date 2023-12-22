@@ -1,0 +1,18 @@
+[2023-12-12 19:28:53,626]    INFO [count] Using index /mnt/iacchus/joe/reference_genomes/kallisto/mus_musculus/transcriptome.idx to generate BUS file to /mnt/iacchus/joe/raw_data/Thymus/Fezf2_EnR/kallisto/WT from
+[2023-12-12 19:28:53,626]    INFO [count]         /mnt/iacchus/joe/raw_data/Thymus/Fezf2_EnR/fastqs/WT/andersonm-Fezf2_WT_3GEX_S11_L001_R1_001.fastq.gz
+[2023-12-12 19:28:53,626]    INFO [count]         /mnt/iacchus/joe/raw_data/Thymus/Fezf2_EnR/fastqs/WT/andersonm-Fezf2_WT_3GEX_S11_L001_R2_001.fastq.gz
+[2023-12-12 19:28:53,626]    INFO [count]         /mnt/iacchus/joe/raw_data/Thymus/Fezf2_EnR/fastqs/WT/andersonm-Fezf2_WT_3GEX_S11_L002_R1_001.fastq.gz
+[2023-12-12 19:28:53,626]    INFO [count]         /mnt/iacchus/joe/raw_data/Thymus/Fezf2_EnR/fastqs/WT/andersonm-Fezf2_WT_3GEX_S11_L002_R2_001.fastq.gz
+[2023-12-12 19:28:53,626]    INFO [count]         /mnt/iacchus/joe/raw_data/Thymus/Fezf2_EnR/fastqs/WT/andersonm-Fezf2_WT_3GEX_S11_L003_R1_001.fastq.gz
+[2023-12-12 19:28:53,626]    INFO [count]         /mnt/iacchus/joe/raw_data/Thymus/Fezf2_EnR/fastqs/WT/andersonm-Fezf2_WT_3GEX_S11_L003_R2_001.fastq.gz
+[2023-12-12 19:28:53,626]    INFO [count]         /mnt/iacchus/joe/raw_data/Thymus/Fezf2_EnR/fastqs/WT/andersonm-Fezf2_WT_3GEX_S11_L004_R1_001.fastq.gz
+[2023-12-12 19:28:53,626]    INFO [count]         /mnt/iacchus/joe/raw_data/Thymus/Fezf2_EnR/fastqs/WT/andersonm-Fezf2_WT_3GEX_S11_L004_R2_001.fastq.gz
+[2023-12-12 20:14:45,299]    INFO [count] Sorting BUS file /mnt/iacchus/joe/raw_data/Thymus/Fezf2_EnR/kallisto/WT/output.bus to /mnt/iacchus/joe/raw_data/Thymus/Fezf2_EnR/kallisto/WT/tmp/output.s.bus
+[2023-12-12 20:16:35,581]    INFO [count] Whitelist not provided
+[2023-12-12 20:16:35,581]    INFO [count] Copying pre-packaged 10XV3 whitelist to /mnt/iacchus/joe/raw_data/Thymus/Fezf2_EnR/kallisto/WT
+[2023-12-12 20:16:36,010]    INFO [count] Inspecting BUS file /mnt/iacchus/joe/raw_data/Thymus/Fezf2_EnR/kallisto/WT/tmp/output.s.bus
+[2023-12-12 20:16:51,533]    INFO [count] Correcting BUS records in /mnt/iacchus/joe/raw_data/Thymus/Fezf2_EnR/kallisto/WT/tmp/output.s.bus to /mnt/iacchus/joe/raw_data/Thymus/Fezf2_EnR/kallisto/WT/tmp/output.s.c.bus with whitelist /mnt/iacchus/joe/raw_data/Thymus/Fezf2_EnR/kallisto/WT/10x_version3_whitelist.txt
+[2023-12-12 20:17:42,367]    INFO [count] Sorting BUS file /mnt/iacchus/joe/raw_data/Thymus/Fezf2_EnR/kallisto/WT/tmp/output.s.c.bus to /mnt/iacchus/joe/raw_data/Thymus/Fezf2_EnR/kallisto/WT/output.unfiltered.bus
+[2023-12-12 20:18:40,720]    INFO [count] Generating count matrix /mnt/iacchus/joe/raw_data/Thymus/Fezf2_EnR/kallisto/WT/counts_unfiltered/cells_x_genes from BUS file /mnt/iacchus/joe/raw_data/Thymus/Fezf2_EnR/kallisto/WT/output.unfiltered.bus
+[2023-12-12 20:19:15,403]    INFO [count] Reading matrix /mnt/iacchus/joe/raw_data/Thymus/Fezf2_EnR/kallisto/WT/counts_unfiltered/cells_x_genes.mtx
+[2023-12-12 20:19:35,510]    INFO [count] Writing matrix to h5ad /mnt/iacchus/joe/raw_data/Thymus/Fezf2_EnR/kallisto/WT/counts_unfiltered/adata.h5ad
