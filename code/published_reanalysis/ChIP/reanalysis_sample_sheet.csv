@@ -1,7 +1,0 @@
-SampleID	Factor	Replicate	bamReads	Peaks	PeakCaller
-Fezf2_3x_FLAG_1	Fezf2	1	/mnt/iacchus/joe/raw_data/Thymus/Fezf2_ChIP_seq/bowtie_output/Fezf2_flag_rep_1_filtered_marked_dups.bam	/mnt/iacchus/joe/raw_data/Thymus/Fezf2_ChIP_seq/MACS2_output//	narrow
-Fezf2_3x_FLAG_2	Fezf2	2	/mnt/iacchus/joe/raw_data/Thymus/Fezf2_ChIP_seq/bowtie_output/Fezf2_flag_rep_2_filtered_marked_dups.bam	/mnt/iacchus/joe/raw_data/Thymus/Fezf2_ChIP_seq/MACS2_output//	narrow
-IgG_1	IgG	1	/mnt/iacchus/joe/raw_data/Thymus/Fezf2_ChIP_seq/bowtie_output/IgG_rep_1_filtered_marked_dups.bam	/mnt/iacchus/joe/raw_data/Thymus/Fezf2_ChIP_seq/MACS2_output//	narrow
-IgG_2	IgG	2	/mnt/iacchus/joe/raw_data/Thymus/Fezf2_ChIP_seq/bowtie_output/IgG_rep_2_filtered_marked_dups.bam	/mnt/iacchus/joe/raw_data/Thymus/Fezf2_ChIP_seq/MACS2_output//	narrow
-Input_1	NA	1	/mnt/iacchus/joe/raw_data/Thymus/Fezf2_ChIP_seq/bowtie_output/input_rep_1_filtered_marked_dups.bam	/mnt/iacchus/joe/raw_data/Thymus/Fezf2_ChIP_seq/MACS2_output//	narrow
-Input_2	NA	2	/mnt/iacchus/joe/raw_data/Thymus/Fezf2_ChIP_seq/bowtie_output/input_rep_2_filtered_marked_dups.bam	/mnt/iacchus/joe/raw_data/Thymus/Fezf2_ChIP_seq/MACS2_output//	narrow
