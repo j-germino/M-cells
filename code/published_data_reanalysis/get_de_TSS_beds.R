@@ -24,19 +24,18 @@ genes <- genes[gene_symbols$ensembl_gene_id]
 genes$external_gene_name <- gene_symbols$external_gene_name
 
 setwd("/home/joe/Repositories/fezf2-thymus")
-fezf2_de_genes <- read.csv("analysis/DE/Fezf2_DE_genes.csv")
-fezf2_de_up_genes <- fezf2_de_genes[fezf2_de_genes$lfc_mean > 0, "gene"]
-fezf2_de_down_genes <- fezf2_de_genes[fezf2_de_genes$lfc_mean < 0, "gene"]
+fezf2_de_up_genes <- read.csv("analysis/ChIP_seq/Fezf2_de_up.csv")$gene
+fezf2_de_down_genes <- read.csv("analysis/ChIP_seq/Fezf2_de_down.csv")$gene
 fezf2_de_up_gene_regions <- genes[genes$external_gene_name %in% fezf2_de_up_genes]
 fezf2_de_down_gene_regions <- genes[genes$external_gene_name %in% fezf2_de_down_genes]
 
 export(
   fezf2_de_up_gene_regions,
-  con = "analysis/DE/Fezf2_DE_up_genes.bed",
+  con = "analysis/ChIP_seq/Fezf2_DE_up_genes.bed",
   format = "BED"
 )
 export(
   fezf2_de_down_gene_regions,
-  con = "analysis/DE/Fezf2_DE_down_genes.bed",
+  con = "analysis/ChIP_seq/Fezf2_DE_down_genes.bed",
   format = "BED"
 )
